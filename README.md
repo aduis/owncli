@@ -1,2 +1,2 @@
-# clijs
+# owncli
 nodejs command line utility
