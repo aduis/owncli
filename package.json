@@ -10,7 +10,13 @@
     "cli",
     "node"
   ],
-  "author": "andre.duis@gmail.com",
+  "author": "Andre Duis <andre.duis@gmail.com>",
+  "contributors": [
+    {
+      "name": "Markus Dethlefsen",
+      "email": "hapi-rabbit@markus-inger.de"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.0.0",
@@ -18,5 +24,13 @@
     "lodash": "^3.8.0",
     "minimist": "^1.1.1",
     "require-dir": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aduis/clijs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aduis/clijs/issues"
+  },
+  "homepage": "https://github.com/aduis/clijs"
 }
