@@ -1,12 +1,12 @@
 module.exports = {
 	commands: {
-		release: {
+		one: {
 			execute: require('./test-one'),
 			options: {
 				save: { pos: 0, abbr: 's', required: true }
 			}
 		},
-		watch: {
+		two: {
 			execute: require('./test-two')
 		}
 	}
