@@ -10,6 +10,10 @@
     "cli",
     "node"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aduis/owncli.git"
+  },
   "author": "andre.duis@gmail.com",
   "license": "ISC",
   "dependencies": {
