@@ -16,16 +16,15 @@ describe('owncli', function () {
         var printStub;
         var validateStub;
 
-        beforeEach(function(){
+        beforeEach(function () {
             printStub = sinon.stub(print, "help");
             validateStub = sinon.spy(validate, "options");
         });
 
-        afterEach(function(){
+        afterEach(function () {
             printStub.restore();
             validateStub.restore();
         });
-
 
         it('should have options object', function () {
             expect(cli.options).to.be.an('object');
@@ -64,15 +63,31 @@ describe('owncli', function () {
         it('should execute a task', function () {
             var cb = sinon.stub();
             cli.args = ['test'];
-            cli.tasks = { test: { execute: function(o,c){c();} }};
+            cli.tasks = {
+                test: {
+                    execute: function (o, c) {
+                        c();
+                    }
+                }
+            };
             cli.execute(cb);
             cb.should.have.been.called;
-         });
+        });
 
         it('should execute a task with a sub command', function () {
             var cb = sinon.stub();
             cli.args = ['test', 'lala'];
-            cli.tasks = { test: { commands: { lala: { execute: function(o,c){c();} }}}};
+            cli.tasks = {
+                test: {
+                    commands: {
+                        lala: {
+                            execute: function (o, c) {
+                                c();
+                            }
+                        }
+                    }
+                }
+            };
             cli.execute(cb);
             cb.should.have.been.called;
         });

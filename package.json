@@ -4,7 +4,9 @@
   "description": "command line runner",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha --reporter Spec",
+    "coverage": "node ./node_modules/mocha/bin/mocha --reporter mocha-istanbul",
+    "watch": "node ./node_modules/mocha/bin/mocha --watch"
   },
   "keywords": [
     "cli",
@@ -28,7 +30,9 @@
   "devDependencies": {
     "chai": "^2.3.0",
     "chai-as-promised": "^5.0.0",
+    "istanbul": "^0.3.13",
     "mocha": "^2.1.0",
+    "mocha-istanbul": "^0.2.0",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"
   }

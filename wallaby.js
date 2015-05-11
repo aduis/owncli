@@ -11,11 +11,19 @@ module.exports = function () {
         env: {
             type: 'node'
         },
-        "workers": {
-            "initial": 1,
-            "regular": 1
-        },
         debug: false,
+        "delays": {
+            "edit": 500,
+            "run": 150
+        },
+        "workers": {
+            "initial": 10,
+            "regular": 4,
+            recycle: true
+        },
+        bootstrap: function (wallaby) {
+            wallaby.testFramework.ui('bdd');
+        },
         "testFramework": "mocha@2.1.0"
     };
 };
