@@ -1,6 +1,6 @@
 {
   "name": "owncli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "command line runner",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "chalk": "^1.0.0",
     "debug": "^2.1.3",
     "deep-dot": "0.0.2",
+    "figlet": "^1.1.0",
     "hoek": "^2.12.0",
     "lodash": "^3.8.0",
     "minimist": "^1.1.1",
