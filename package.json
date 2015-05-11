@@ -17,7 +17,7 @@
     "url": "git@github.com:aduis/owncli.git"
   },
   "author": "andre.duis@gmail.com",
-	"contributors": [
+  "contributors": [
     {
       "name": "Markus Dethlefsen",
       "email": "hapi-rabbit@markus-inger.de"
@@ -29,6 +29,7 @@
     "debug": "^2.1.3",
     "deep-dot": "0.0.2",
     "figlet": "^1.1.0",
+    "fluid": "^0.1.3",
     "hoek": "^2.12.0",
     "lodash": "^3.8.0",
     "minimist": "^1.1.1",
