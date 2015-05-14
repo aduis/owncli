@@ -1,7 +1,7 @@
 # owncli
 nodejs command line utility
 
-[![Build Status](https://travis-ci.org/aduis/owncli.svg?branch=master)](https://travis-ci.org/aduis/owncli)
+[![Build Status](https://travis-ci.org/aduis/owncli.svg?branch=master)](https://travis-ci.org/aduis/owncli) [![Coverage Status](https://coveralls.io/repos/aduis/owncli/badge.svg)](https://coveralls.io/r/aduis/owncli) [![npm version](https://badge.fury.io/js/owncli.svg)](http://badge.fury.io/js/owncli)
 
 ## getting started
 
