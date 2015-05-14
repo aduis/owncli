@@ -4,7 +4,7 @@ module.exports = {
             description: 'do one thing',
             execute: require('./test-one'),
             options: {
-                save: {abbr: 's', description: 'save the settings',required: true}
+                significance: {abbr: 's', description: 'significance of version',required: true}
             }
         },
         two: {

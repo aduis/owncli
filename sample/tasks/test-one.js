@@ -12,6 +12,7 @@ module.exports = function(options){
         .echo("Done!")
         
         .go(function (err, results) {
+            console.log('options', options);
             console.log(err || results || '');
         });
       
