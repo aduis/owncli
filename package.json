@@ -4,7 +4,7 @@
   "description": "command line runner",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --reporter Spec",
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec",
     "coverage": "node ./node_modules/mocha/bin/mocha --reporter mocha-istanbul",
     "watch": "node ./node_modules/mocha/bin/mocha --watch"
   },
