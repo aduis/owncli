@@ -12,7 +12,7 @@ module.exports = function(options){
         .echo("Done!")
         
         .go(function (err, results) {
-            console.log("results", results);
+            console.log(err || results || '');
         });
       
 };
