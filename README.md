@@ -1,6 +1,8 @@
 # owncli
 nodejs command line utility
 
+[![Build Status](https://travis-ci.org/aduis/owncli.svg?branch=master)](https://travis-ci.org/aduis/owncli)
+
 ## getting started
 
 ### setup new npm project sample cli
