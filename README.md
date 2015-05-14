@@ -87,7 +87,7 @@ nodejs command line utility
     node index test //=> outputs help for the test command
 
     node index test one -s patch //call test-one command
-    
+
 
 ## debug
     WINDOWS: SET DEBUG=owncli & node index.js
