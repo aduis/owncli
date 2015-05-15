@@ -34,10 +34,10 @@ describe('owncli', function () {
             logStub.restore();
         });
 
-        it.only('should print a help with name and version when no params given', function () {
+        it('should print a help with name and version when no params given', function () {
             print.help({name:'test2',version:2,mainCommand:'test'}, { a: { execute:function(){}, description:'b' }}, ['a'] );
             logStub.should.have.been.calledWith(print.msgs.version,'test2',2);
-            logStub.should.have.been.calledWith(print.msgs.commandMain,'test','a',stripcolorcodes('\nb'));
+            logStub.should.have.been.calledWith(print.msgs.commandMain,'test','a',stripcolorcodes('\nb '));
             logStub.restore();
         });
 
