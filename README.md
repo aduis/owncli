@@ -1,4 +1,6 @@
 # owncli
+
+[![Join the chat at https://gitter.im/aduis/owncli](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aduis/owncli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 nodejs command line utility
 
 [![Build Status](https://travis-ci.org/aduis/owncli.svg?branch=master)](https://travis-ci.org/aduis/owncli) [![Coverage Status](https://coveralls.io/repos/aduis/owncli/badge.svg)](https://coveralls.io/r/aduis/owncli) [![npm version](https://badge.fury.io/js/owncli.svg)](http://badge.fury.io/js/owncli)
